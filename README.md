@@ -5,7 +5,7 @@
 ### Steps for quick staring 
 
 ## Step-1
- Configer project for java8, add the following code into app level build.gradle file
+ Config. project for java8, add the following code into app level build.gradle file
 ```
  android{
     .......
