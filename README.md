@@ -47,26 +47,34 @@ VideoConverter.Builder builder = new VideoConverter.Builder(this)
         converter.convertVideo(sourceFile, targetFile, new EncoderProgressListener() {
             @Override
             public void onStartEncoding(MediaInfo info) {
+	    // input media info
                 
             }
 
             @Override
             public void onUpdateProgress(int progress) {
+	    // track the encoding progress
 
             }
 
             @Override
             public void onSendMassage(String message) {
+	    // encoder send the msg if needed
 
             }
 
             @Override
             public void onCompleteEncoding(int completionCode) {
+	    // completion code
+	    // EncoderProgressListener.STATUS_COMPLETED
+	    // EncoderProgressListener.STATUS_ABORT
+	    // EncoderProgressListener.STATUS_ERROR
 
             }
 
             @Override
             public void onReceivedError(Exception e) {
+	    // exception will be thrown on error
 
             }
         });
