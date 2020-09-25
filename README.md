@@ -1,7 +1,7 @@
 # RKVideoConverter
 [![](https://jitpack.io/v/RufenKhokhar/RKVideoConverter.svg)](https://jitpack.io/#RufenKhokhar/RKVideoConverter)
 
-## Based on ffmpeg, easy and powerful, no need to write any cmds.
+## Based on ffmpeg, easy and powerful, no need to write any cmds.It supports all encoder and decoders that supported by ffmpeg
 ### Steps for quick staring 
 
 ## Step-1
