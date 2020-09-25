@@ -1,7 +1,7 @@
 # RKVideoConverter
 [![](https://jitpack.io/v/RufenKhokhar/RKVideoConverter.svg)](https://jitpack.io/#RufenKhokhar/RKVideoConverter)
 
-## Based on ffmpeg file formates
+## Based on ffmpeg
 ### Steps for quick staring 
 
 ## Step-1
