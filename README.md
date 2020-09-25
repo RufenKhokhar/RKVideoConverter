@@ -39,7 +39,7 @@ VideoConverter.initialize(this, status -> Toast.makeText(this, ""+status, Toast.
 ```
 ## now it's time to convert video (.mp4) to (.3gp). give the input as .mp4 file
 ```
-VideoConverter.Builder builder = new VideoConverter.Builder(this)
+VideoConverter.Builder builder = new VideoConverter.Builder(mcontext)
                 .setFastStart(true)
                 .setOutputFormat("3gp");
         VideoConverter converter = builder.build();
@@ -83,7 +83,7 @@ VideoConverter.Builder builder = new VideoConverter.Builder(this)
  ## let's splitting video from start to next 30 seconds
  ```
  
- VideoConverter.Builder builder = new VideoConverter.Builder(this)
+ VideoConverter.Builder builder = new VideoConverter.Builder(mcontext)
                 .setFastStart(true)
                 .setOffset(0f)
                 .setDuration(30f);
