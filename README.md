@@ -1,7 +1,7 @@
 # RKVideoConverter
 [![](https://jitpack.io/v/RufenKhokhar/RKVideoConverter.svg)](https://jitpack.io/#RufenKhokhar/RKVideoConverter)
 
-## Based on ffmpeg
+## Based on ffmpeg, easy and powerful, no need to write any cmds.
 ### Steps for quick staring 
 
 ## Step-1
