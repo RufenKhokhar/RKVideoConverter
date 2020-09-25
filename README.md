@@ -79,4 +79,43 @@ VideoConverter.Builder builder = new VideoConverter.Builder(this)
             }
         });
         
- ```       
+ ``` 
+ ## let's splitting video from start to next 30 seconds
+ ```
+ 
+ VideoConverter.Builder builder = new VideoConverter.Builder(this)
+                .setFastStart(true)
+                .setOffset(0f)
+                .setDuration(30f);
+        VideoConverter converter = builder.build();
+
+        converter.convertVideo(sourceFile, targetFile, new EncoderProgressListener() {
+            @Override
+            public void onStartEncoding(MediaInfo info) {
+
+            }
+
+            @Override
+            public void onUpdateProgress(int progress) {
+
+            }
+
+            @Override
+            public void onSendMassage(String message) {
+
+            }
+
+            @Override
+            public void onCompleteEncoding(int completionCode) {
+
+            }
+
+            @Override
+            public void onReceivedError(Exception e) {
+
+            }
+        });
+	
+```
+ 
+ 
