@@ -29,7 +29,7 @@
 add the following dependency into app level build.gradle file and sync project
 ```
 dependencies {
-	        implementation 'com.github.RufenKhokhar:RKVideoConverter:Tag'
+	        implementation 'com.github.RufenKhokhar:RKVideoConverter:latest-version'
 	}
 ```
 ##  Now it's time to intialized the library. it's importent otherwise library don't works
