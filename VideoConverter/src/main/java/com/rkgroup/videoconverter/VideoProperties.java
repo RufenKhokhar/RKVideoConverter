@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author Rufen Khokhar
  */
 
-class VideoProperties implements Serializable {
+public class VideoProperties implements Serializable {
     /**
      * This value can be setted in the codec field to perform a direct stream
      * copy, without re-encoding of the audio stream.

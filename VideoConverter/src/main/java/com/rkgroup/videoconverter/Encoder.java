@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
  *
  * @author Rufen Khokhar
  */
-class Encoder {
+public class Encoder {
 
     private static final String TAG = "Encoder";
 

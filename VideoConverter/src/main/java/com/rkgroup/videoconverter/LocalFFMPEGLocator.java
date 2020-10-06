@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
  *
  * @author Rufen Khokhar
  */
-class LocalFFMPEGLocator extends FFMPEGLocator {
+public class LocalFFMPEGLocator extends FFMPEGLocator {
 
     private String path;
 

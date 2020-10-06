@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class FFMPEGMediaObject {
+public class FFMPEGMediaObject {
 
     private static final String TAG = "FFMPEGMediaObject";
     /**

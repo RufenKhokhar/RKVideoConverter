@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 /**
  * @author Rufen Khokhar
  */
-public class ConversionAnalyzer {
+class ConversionAnalyzer {
     private static final String TAG = "ConversionAnalyze";
 
     /**

@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
  * @author Rufen Khokhar
  */
 
-class EncoderProperties {
+public class EncoderProperties {
     private static final long serialVersionUID = 1L;
 
     /**
