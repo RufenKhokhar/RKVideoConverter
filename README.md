@@ -118,4 +118,5 @@ VideoConverter.Builder builder = new VideoConverter.Builder(mcontext)
 	
 ```
  
+Note: This Library is not working on android 11 and above versions currently
  
